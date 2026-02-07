@@ -1,0 +1,59 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #161b22;
+    padding: 16px;
+    border-bottom: 1px solid #30363d;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.profile {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.avatar {
+    width: 260px;
+    height: 260px;
+    background-color: #30363d;
+    border-radius: 50%;
+    border: 1px solid #30363d;
+}
+
+.repos {
+    width: 75%;
+}
+
+.repo-card {
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.repo-card a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
